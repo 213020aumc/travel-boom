@@ -2,7 +2,7 @@
 
 TravelBloom is a responsive, single-page web application designed as a final project for a full-stack development course. It serves as a modern and intuitive platform for users to explore travel destinations. The site features a dynamic search functionality that fetches and displays travel recommendations without reloading the page.
 
-**[Live Demo](https://your-github-username.github.io/travelbloom-project/)** _(Replace with your GitHub Pages link after deployment)_
+**[Live Demo](https://213020aumc.github.io/travel-boom/)**
 
 ## ✨ Features
 
