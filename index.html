@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TravelBloom</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div id="logo">
+        <i class="fa fa-plane fa-2x logo" aria-hidden="true"></i>
+        <p class="name">TravelBloom</p>
+      </div>
+      <div id="links">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About Us</a>
+        <a href="#contact" class="nav-link">Contact Us</a>
+      </div>
+      <div id="search">
+        <input
+          id="searchinput"
+          class="searchinput"
+          placeholder="Enter a destination or keyword"
+          type="text"
+        />
+        <i class="fa fa-search searchicon" aria-hidden="true"></i>
+        <button id="searchbtn" class="btn">Search</button>
+        <button id="clearbtn" class="btn">Clear</button>
+      </div>
+    </nav>
+    <div id="dropdown">
+      <div class="dropdown-header"><button id="close-btn">X</button></div>
+      <div id="resultContainer"></div>
+    </div>
+    <main>
+      <section id="home" class="page-section">
+        <div class="sociallinks">
+          <div class="verticalline"></div>
+          <a href="#"><i class="fa fa-twitter fa-2x linkslogo"></i></a>
+          <a href="#"><i class="fa fa-facebook fa-2x linkslogo"></i></a>
+          <a href="#"><i class="fa fa-instagram fa-2x linkslogo"></i></a>
+          <a href="#"><i class="fa fa-youtube-play fa-2x linkslogo"></i></a>
+        </div>
+        <div class="mainhomecontent">
+          <h1 class="homesectionheader">
+            Explore <br />Dream <br />Destination
+          </h1>
+          <p class="homesectiondescriptoin">
+            It encourages exploration of unfamiliar territories, embracing
+            diverse cultures and landscapes, while pursuing the desired
+            destination that captivates the heart and ignites a sense of wonder.
+          </p>
+          <button class="bookbtn">Book Now</button>
+        </div>
+      </section>
+      <section id="about" class="page-section hidden">
+        <div class="about-container">
+          <h2 class="section-header">ABOUT US</h2>
+          <p class="section-text">
+            Welcome to Our Company! We are a team of passionate individuals
+            dedicated to providing excellent services/products to our customers.
+            Our mission is to provide the best experience for people traveling
+            to different destinations around the world.
+          </p>
+          <h3 class="sub-header">Our Team</h3>
+          <div class="team-grid">
+            <div class="team-member">
+              <h4>John Doe</h4>
+              <p>CEO</p>
+            </div>
+            <div class="team-member">
+              <h4>Celina Thomas</h4>
+              <p>Team Lead</p>
+            </div>
+            <div class="team-member">
+              <h4>Mike Tysen</h4>
+              <p>Delivery Head</p>
+            </div>
+          </div>
+          <h3 class="sub-header">Company History</h3>
+          <p class="section-text">
+            Founded in 2018 by avid travelers, our journey began with a vision
+            to simplify travel planning by offering personalized recommendations
+            tailored to individual preferences.
+          </p>
+          <h3 class="sub-header">Our Location</h3>
+          <div class="location-grid">
+            <img
+              src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?q=80&w=2070&auto=format&fit=crop"
+              alt="New York City"
+            />
+            <img src="./images/toronto.jpg" alt="Toronto" />
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="page-section hidden">
+        <div class="contact-container">
+          <h2 class="section-header">CONTACT US</h2>
+          <p class="sub-text">Get in touch</p>
+          <form class="contact-form">
+            <input type="text" placeholder="Name" required />
+            <input type="email" placeholder="Email" required />
+            <textarea placeholder="Message" rows="5" required></textarea>
+            <button type="submit" class="submitmessagebtn">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
